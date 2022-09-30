@@ -1,0 +1,16 @@
+com\dxc\createnewmotopolicy\config\SpringWebAppInitializer.class
+com\dxc\createnewmotopolicy\config\WebMvcConfig.class
+com\dxc\createnewmotopolicy\model\MotoPolicyInfo.class
+com\dxc\createnewmotopolicy\controller\MainController.class
+com\dxc\createnewmotopolicy\entity\Account.class
+com\dxc\createnewmotopolicy\dao\AccountDAO.class
+com\dxc\createnewmotopolicy\entity\MotoPolicy.class
+com\dxc\createnewmotopolicy\validator\MotoPolicyInfoValidator.class
+com\dxc\createnewmotopolicy\config\WebSecurityInitializer.class
+com\dxc\createnewmotopolicy\dao\MotoPolicyDAO.class
+com\dxc\createnewmotopolicy\authentication\MyDBAuthenticationService.class
+com\dxc\createnewmotopolicy\controller\AdminController.class
+com\dxc\createnewmotopolicy\dao\implement\MotoPolicyDAOImpl.class
+com\dxc\createnewmotopolicy\config\WebSecurityConfig.class
+com\dxc\createnewmotopolicy\dao\implement\AccountDAOImpl.class
+com\dxc\createnewmotopolicy\config\ApplicationContextConfig.class

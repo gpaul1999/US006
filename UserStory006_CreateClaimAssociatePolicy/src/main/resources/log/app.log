@@ -1,0 +1,34 @@
+[WARN ] 30-09-2022 15:48:20.944 [http-nio-9007-exec-8] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 15:48:25.514 [http-nio-9007-exec-2] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[INFO ] 30-09-2022 15:57:34.329 [Catalina-utility-1] Version - HHH000412: Hibernate Core {5.2.10.Final}
+[INFO ] 30-09-2022 15:57:34.332 [Catalina-utility-1] Environment - HHH000206: hibernate.properties not found
+[INFO ] 30-09-2022 15:57:34.419 [Catalina-utility-1] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 30-09-2022 15:57:34.867 [Catalina-utility-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+[INFO ] 30-09-2022 15:59:27.296 [Catalina-utility-2] Version - HHH000412: Hibernate Core {5.2.10.Final}
+[INFO ] 30-09-2022 15:59:27.299 [Catalina-utility-2] Environment - HHH000206: hibernate.properties not found
+[INFO ] 30-09-2022 15:59:27.384 [Catalina-utility-2] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 30-09-2022 15:59:27.765 [Catalina-utility-2] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+[INFO ] 30-09-2022 16:05:50.280 [main] Version - HHH000412: Hibernate Core {5.2.10.Final}
+[INFO ] 30-09-2022 16:05:50.284 [main] Environment - HHH000206: hibernate.properties not found
+[INFO ] 30-09-2022 16:05:50.387 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 30-09-2022 16:05:50.945 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+[WARN ] 30-09-2022 16:06:12.586 [http-nio-9007-exec-8] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[INFO ] 30-09-2022 16:06:12.712 [http-nio-9007-exec-9] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[WARN ] 30-09-2022 16:06:28.861 [http-nio-9007-exec-8] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:06:28.873 [http-nio-9007-exec-8] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:06:43.776 [http-nio-9007-exec-10] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:06:49.517 [http-nio-9007-exec-3] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:06:49.528 [http-nio-9007-exec-3] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:14:14.182 [http-nio-9007-exec-1] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:14:46.667 [http-nio-9007-exec-8] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:14:46.671 [http-nio-9007-exec-8] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:14:56.310 [http-nio-9007-exec-4] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:14:56.315 [http-nio-9007-exec-4] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:15:08.695 [http-nio-9007-exec-7] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:15:08.700 [http-nio-9007-exec-7] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:15:26.297 [http-nio-9007-exec-9] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:15:30.525 [http-nio-9007-exec-2] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:15:30.532 [http-nio-9007-exec-2] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:15:49.716 [http-nio-9007-exec-9] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:15:54.231 [http-nio-9007-exec-2] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+[WARN ] 30-09-2022 16:16:10.172 [http-nio-9007-exec-9] deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
