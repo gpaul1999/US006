@@ -42,16 +42,19 @@ public class ClaimInfoValidator implements Validator{
 		//Validate for Occurred Date
 		ValidationUtils.rejectIfEmpty(errors, "occurredDate", "NotEmpty.claimForm.occuredDate");
 		String occuredDate = claimInfo.getOccurredDate();
+		
 		if (occuredDate.length()>0) {
 			try {
 				Date occured = dateFormat.parse(occuredDate);
 				if (occured.compareTo(new Date())>0) {
 					errors.rejectValue("occurredDate", "Greater.claimForm.occuredDate");
 				}	
-				Date inceptionDate = policy.getInceptionDate();
-				Date expiryDate = policy.getExpiryDate();
-				if (occured.compareTo(inceptionDate)<0 || occured.compareTo(expiryDate)>0) {
-					errors.rejectValue("occurredDate", "NotInPeriod.claimForm.occuredDate");
+				if (policy!=null) {
+					Date inceptionDate = policy.getInceptionDate();
+					Date expiryDate = policy.getExpiryDate();
+					if (occured.compareTo(inceptionDate)<0 || occured.compareTo(expiryDate)>0) {
+						errors.rejectValue("occurredDate", "NotInPeriod.claimForm.occuredDate");
+					}
 				}
 			} catch (Exception e) {
 				errors.rejectValue("occurredDate", "WrongFormat.claimForm.occuredDate");
@@ -74,9 +77,11 @@ public class ClaimInfoValidator implements Validator{
 				if (reserve<0) {
 					errors.rejectValue("reserveAmount", "Lower.claimForm.reserveAmount");
 				}
-				double sumInsured = policy.getSumInsured();
-				if (reserve>sumInsured) {
-					errors.rejectValue("reserveAmount", "Greater.claimForm.reserveAmount");
+				if (policy!=null) {
+					double sumInsured = policy.getSumInsured();
+					if (reserve>sumInsured) {
+						errors.rejectValue("reserveAmount", "Greater.claimForm.reserveAmount");
+					}
 				}
 			} catch (Exception e) {
 				errors.rejectValue("reserveAmount", "NotANumber.claimForm.reserveAmount");
